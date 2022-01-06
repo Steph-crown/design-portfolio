@@ -28,7 +28,7 @@ export const ProjectSection: FC = () => {
             horizontal: false,
             description:
                 "With all the razzmatazz going on about web3, NFT (Non-Fungible Token), I decided I would not be left behind, so I designed a banner section of an NFT web application. I did a little research to understand what NFT was, and I am looking to go into the field",
-            link: "https://247-nft.netlify.app/",
+            link: "/nft",
         },
         {
             name: "A Math Blog",
@@ -36,15 +36,15 @@ export const ProjectSection: FC = () => {
             horizontal: false,
             description:
                 "There are a lot of different categories of blogs ranging from fashion to tech and education. But I noticed that blogs that strictly wrote articles on Mathematics were not so much (or I did not notice a lot), so I designed one.",
-            link: "https://steph-portfolio.vercel.app/",
+            link: "/mathdom",
         },
         {
-            name: "studics App",
+            name: "Studics App",
             image: studics,
             horizontal: true,
             description:
                 "Studics app is an e-learning application where users can register for courses, draft a study schedule. It also gives students access to verified mentors. Students can also register for and write certification exams for any course",
-            link: "https://musicplay-app-typescript-steel.vercel.app/",
+            link: "/studics",
         },
         {
             name: "Studics Hero",
@@ -52,7 +52,7 @@ export const ProjectSection: FC = () => {
             horizontal: false,
             description:
                 "I designed a hero page that shows users an e-learning application with directions on how to get the mobile application, either through the Google Playstore or Apple Appstore. Got inspiration from the Paystack hero page.",
-            link: "https://steph-crown-Studics.netlify.app/",
+            link: "/studics",
         },
         {
             name: "MusicPlay",
@@ -60,7 +60,7 @@ export const ProjectSection: FC = () => {
             horizontal: false,
             description:
                 "I think this is one I love so much. I took some time on this one. It is a music player app. An app that allows you to play songs while viewing the lyrics. Got inspiration from YouTube Music, Spotify, and Boomplay",
-            link: "https://musicplay-app-typescript-steel.vercel.app/",
+            link: "/musicplay",
         },
         {
             name: "Current Portfolio",
@@ -68,13 +68,13 @@ export const ProjectSection: FC = () => {
             horizontal: true,
             description:
                 "This is what you are currently viewing 😊. I thought I needed to develop a new portfolio, designing it from scratch before coding it out. Made sure it is all-device-responsive, and added some cool transitions with CSS",
-            link: "https://www.stephcrown.com/",
+            link: "/",
         },
     ];
     return (
         <ProjectSectionContainer>
-            <h6 data-aos="fade-right">SELECTED PROJECTS</h6>
-            <h1 data-aos="fade-right">Projects</h1>
+            <h6 data-aos="fade-right">SELECTED DESIGNS</h6>
+            <h1 data-aos="fade-right">Designs</h1>
             <div className="projects-container">
                 {projects.map((proj, index) => (
                     <Project key={proj.name + index} {...proj} />

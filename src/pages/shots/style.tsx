@@ -3,13 +3,55 @@ import styled from "styled-components";
 export const ShotContainer = styled.div`
     & section {
         padding: 180px var(--side-pad);
+        padding-right: 0;
 
         @media (max-width: 1000px) {
             padding: 160px var(--side-pad);
+            padding-right: 0;
         }
 
         @media (max-width: 480px) {
             padding: 130px var(--mob-side-pad);
+            padding-right: 0;
+        }
+
+        div.shots {
+            padding-right: var(--side-pad);
+            margin-top: 8em;
+
+            @media (max-width: 1000px) {
+                padding-right: var(--side-pad);
+            }
+
+            @media (max-width: 480px) {
+                padding-right: var(--mob-side-pad);
+            }
+
+            img {
+                width: 100%;
+                margin-bottom: 8em;
+                /* border-radius: 16px; */
+            }
+
+            @media (max-width: 1024px) {
+                margin-top: 6em;
+
+                img {
+                    margin-bottom: 4em;
+                }
+            }
+
+            @media (max-width: 700px) {
+                margin-top: 4em;
+
+                img {
+                    margin-bottom: 3em;
+                }
+            }
+        }
+        p.end {
+            text-align: center;
+            color: #5d5663;
         }
 
         h1 {
@@ -86,6 +128,33 @@ export const ShotContainer = styled.div`
                     span {
                         width: 100%;
                     }
+                }
+            }
+        }
+
+        div.flex-side {
+            display: flex;
+            justify-content: space-between;
+            min-height: 2px;
+            align-items: center;
+
+            img {
+                height: 500px;
+                width: 100%;
+                object-fit: cover;
+                background-size: cover;
+                background-position: 50%;
+                object-position: top left;
+                display: flex;
+
+                @media (max-width: 1100px) {
+                    height: 360px;
+                }
+                @media (max-width: 900px) {
+                    height: 280px;
+                }
+                @media (max-width: 700px) {
+                    display: none;
                 }
             }
         }

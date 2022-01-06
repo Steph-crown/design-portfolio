@@ -4,7 +4,7 @@ import { Hamburger } from "./hamburger";
 import { IHeaderProps } from "./interface";
 import { HeaderContainer } from "./style";
 export const navLinks: { name: string; link: string }[] = [
-    { name: "Projects", link: "/#projects" },
+    { name: "Designs", link: "/#projects" },
     { name: "About", link: "/about" },
 
     { name: "Resume", link: "/resume.pdf" },
