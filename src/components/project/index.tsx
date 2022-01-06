@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "../buttons";
 import { IProjectProps, IStackProps } from "./interface";
 import { ProjectContainer, StackContainer } from "./style";
@@ -7,7 +8,6 @@ export const Project: FC<IProjectProps> = ({
     name,
     image,
     description,
-    stacks,
     horizontal,
     link,
 }) => {
@@ -22,17 +22,17 @@ export const Project: FC<IProjectProps> = ({
             <div className="first">
                 <h2 data-aos="fade-up">{name}</h2>
                 <p data-aos="fade-up">{description}</p>
-                <div data-aos="fade-up" className="stacks">
+                {/* <div data-aos="fade-up" className="stacks">
                     {stacks?.map((stack) => (
                         <Stack key={stack} name={stack} />
                     ))}
-                </div>
+                </div> */}
                 <div data-aos="fade-up">
                     {" "}
-                    <a href={link}>
+                    <Link to={link}>
                         {" "}
-                        <Button>View Live</Button>
-                    </a>
+                        <Button>View Shots</Button>
+                    </Link>
                 </div>
             </div>
             <div className="second">

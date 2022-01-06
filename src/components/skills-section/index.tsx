@@ -4,16 +4,13 @@ import { SkillContainer, SkillsSectionContainer } from "./style";
 
 export const SkillsSection: FC = () => {
     const skills = [
-        "HTML 5",
-        "CSS 3",
-        "J QUERY",
-        "JAVASCRIPT",
-        "TYPESCRIPT",
-        "Responsive Design",
+        "CONTENT WRITING",
+        "WIREFRAMING",
+        "PROTOTYPING",
         "FIGMA",
-        "REACT JS",
-        "PYTHON",
-        "NEXT JS",
+        "NOTION",
+        "MIRO",
+        "TRELLO",
     ];
     return (
         <SkillsSectionContainer>

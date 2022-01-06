@@ -2,7 +2,7 @@ export interface IProjectProps {
     name: string;
     description: string;
     image: any;
-    stacks?: string[];
+    // stacks?: string[];
     horizontal: boolean;
     link: string;
 }

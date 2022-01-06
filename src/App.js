@@ -34,9 +34,9 @@ function App() {
                     </div>
                     <div className={"redirect " + (show ? "show" : "")}>
                         <button onClick={() => setshow(false)}>&times;</button>
-                        🎉 Yaaay, you saw this. I am also a visual designer so I
-                        thought to show you my design portfolio.{" "}
-                        <a href="https://stephcrown.vercel.app">
+                        🎉 Yaaay, you saw this. I am also a frontend developer
+                        so I thought to show you my frontend portfolio.{" "}
+                        <a href="https://stephcrown.com">
                             Click here to go ahead <span></span>
                         </a>
                     </div>

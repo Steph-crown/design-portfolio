@@ -58,15 +58,11 @@ export const Banner: FC = () => {
                     <span>Steph</span> <span>Crown</span> */}
                 </h1>
                 <p data-aos="fade-up">
-                    {/* I'm a UX designer based in Lagos, Nigeria (for now) with 1+
-                    years of experience in delivering end to end designs for
-                    digital products. From ideation to execution, I make great
-                    user experiences with UI design. */}
-                    I am frontend developer based in Lagos, Nigeria with 2+
-                    years of developing mobile responsive, user-friendly web
-                    application frontends. From using CSS to implement pixel
-                    perfect designs to utilizing frontend frameworks to consume
-                    API,I make great web user interface experience for users.
+                    I'm a visual designer now working in Lagos, Nigeria, with
+                    over a year of experience providing end-to-end designs for
+                    digital products. Aesthetics are something I'm quite
+                    interested in. Designing digital user interfaces and
+                    seamless user experiences is something I enjoy doing.
                 </p>
                 <div className="arrow-text">
                     <p style={{ marginRight: "-20px" }} data-aos="fade-up">

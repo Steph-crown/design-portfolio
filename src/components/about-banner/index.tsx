@@ -14,7 +14,7 @@ export const AboutBanner: FC = () => {
     // const sel = gsap.utils.selector(divRef);
     // const timeline = useRef<any>(null);
 
-    const message: string = "Hello World...";
+    const message: string = "About Me...";
     const [messageShown, setMessageShown] = useState<string>("");
     const [messageIndex, setMessageIndex] = useState<number>(1);
 
@@ -46,34 +46,29 @@ export const AboutBanner: FC = () => {
                     <span>Steph</span> <span>Crown</span> */}
                 </h1>
                 <p data-aos="fade-up">
-                    I'm a driven frontend developer who specializes in
-                    developing intuitive web user interfaces and seamless user
-                    experiences. I frequently assist in the identification and
-                    resolution of complicated challenges using data-driven
-                    procedures that transform business objectives into reality
-                    while emphasizing empathy for the user.{" "}
-                </p>{" "}
-                <p data-aos="fade-up">
-                    {" "}
-                    I'm passionate about creating user-centric, entertaining,
-                    and human web experiences.
+                    I am an innovative visual designer with a technical
+                    background (Frontend development). I'm passionate about
+                    designing digital experiences that are both user-centric and
+                    engaging. My goal is to gain more experience and expertise
+                    in my field, and to find a job that allows me to grow my
+                    knowledge and fully utilize my knowledge, practice, and
+                    abilities, all while ensuring result-oriented efforts to
+                    increase organizational productivity.
                 </p>
                 <p data-aos="fade-up">
-                    In my 2+ years of hands-on experience and a never-ending
-                    desire for knowledge and self-improvement, I have developed
-                    key values like as speed, accuracy, inventiveness, and
-                    responsiveness to milestones. My goal is to gain more
-                    experience and expertise in my field, and to find a job that
-                    allows me to grow my knowledge and fully utilize my
-                    knowledge, practice, and abilities, all while ensuring
-                    result-oriented efforts to increase organizational
-                    productivity.
+                    I've established essential values, including speed,
+                    accuracy, originality, and reactivity to milestones during
+                    my 1+ years of hands-on experience and a never-ending thirst
+                    for knowledge and self-improvement.
                 </p>
-                <p data-aos="fade-up">
-                    I appreciate debating and exchanging ideas and perspectives
-                    that help us learn more. We should ask more questions to
-                    strengthen our coding skills.
+                <p>
+                    If you'd like to talk about a project you're working on or
+                    require design guidance, shoot me an email at
+                    emmanuelstephen024@gmail.com. I am currently AVAILABLE to
+                    work on new (and interesting) projects, so please let me
+                    know if you have one.
                 </p>
+
                 <a
                     data-aos="fade-up"
                     href="mailto:emmanuelstephen024@gmail.com"

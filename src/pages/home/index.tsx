@@ -5,7 +5,7 @@ import { Footer } from "../../components/footer";
 import { Header } from "../../components/header";
 import { Menu } from "../../components/menu";
 import { ProjectSection } from "../../components/project-section";
-import { SkillsSection } from "../../components/skills-section";
+// import { SkillsSection } from "../../components/skills-section";
 // import { useHistory } from "react-router-dom";
 import { HomeContainer } from "./style";
 // import { gsap } from "gsap";
@@ -36,7 +36,7 @@ export const HomePage: FC = () => {
             <div id="projects">
                 <ProjectSection />
             </div>
-            <SkillsSection />
+            {/* <SkillsSection /> */}
             <div id="footer">
                 <Footer />
             </div>

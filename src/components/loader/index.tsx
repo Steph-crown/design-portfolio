@@ -15,7 +15,7 @@ export const Loader: FC = () => {
 
                     <div className="role">
                         <div className="block"></div>
-                        <p>Frontend Developer</p>
+                        <p>Visual Designer</p>
                     </div>
                 </div>
             </div>

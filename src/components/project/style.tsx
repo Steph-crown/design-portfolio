@@ -34,6 +34,7 @@ export const ProjectContainer = styled.div<IProjectStyles>`
 
         letter-spacing: 0.08em;
         margin-top: 24px;
+        margin-bottom: 3em;
     }
 
     div.first {
