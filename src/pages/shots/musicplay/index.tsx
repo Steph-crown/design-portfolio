@@ -33,9 +33,9 @@ export const MusicPlay: FC = () => {
                 <div className="shots">
                     <img src={HngImage1} alt="Shot 1" />
                     <img src={HngImage2} alt="Shot 2" />
-                    <img src={HngImage3} alt="Shot 2" />
+                    <img src={HngImage3} alt="Shot 2" />{" "}
+                    <p className="end">End of Shots</p>
                 </div>
-                <p className="end">End of Shots</p>
             </section>
         </ShotContainer>
     );

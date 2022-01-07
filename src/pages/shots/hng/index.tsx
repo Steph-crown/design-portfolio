@@ -30,9 +30,9 @@ export const Hng: FC = () => {
                 </div>
                 <div className="shots">
                     <img src={HngImage1} alt="HNG Shot 1" />
-                    <img src={HngImage2} alt="HNG Shot 2" />
+                    <img src={HngImage2} alt="HNG Shot 2" />{" "}
+                    <p className="end">End of Shots</p>
                 </div>
-                <p className="end">End of Shots</p>
             </section>
         </ShotContainer>
     );
